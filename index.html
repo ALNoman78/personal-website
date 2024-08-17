@@ -19,11 +19,17 @@
         .font-roboto {
             font-family: "Roboto", sans-serif;
         }
+
+        .footer-tems {
+            transform: translate(-50%, -50%);
+            top: 270%;
+            left: 50%;
+        }
     </style>
 </head>
 
 <body>
-    <header class="border-solid border-2 border-blue-500">
+    <header class="shadow-sm">
         <nav class="flex justify-end m-4 w-5/6 font-medium mx-auto">
             <ul class="p-4 font-roboto items-center flex gap-10">
                 <li class="">Home</li>
@@ -32,8 +38,7 @@
                 <li>Contact</li>
             </ul>
         </nav>
-        <section
-            class="banner-container w-6/6 mx-auto flex items-center justify-around">
+        <section class="banner-container w-6/6 mx-auto flex items-center justify-around">
             <div class="">
                 <h3 class="font-bold text-7xl text-[#363958] w-auto bebas-neue">Hello, I'm <br>
                     <span class="text-[#FF8367] pt-4">Rob Davidson</span>
@@ -48,26 +53,68 @@
                 <img src="./images/do not use this pic.png" alt="" class="">
             </div>
         </section>
-        <section class="banner-container w-6/6 mx-auto flex items-center justify-around">
+        <section class="banner-container w-6/6 mx-auto flex items-center justify-around pb-10">
             <div class="w-1/4">
                 <img src="./images/do not use this pic2.png" alt="" class="">
             </div>
             <div class="">
                 <h3 class="font-bold text-7xl text-[#363958] w-auto bebas-neue">About</h3>
                 <p class="font-roboto pt-5">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem Ipsum has been the industry's standard dummy text ever since the <br>1500s, when an unknown printer took a galley of type and scrambled it <br>to make a type specimen book.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem Ipsum has been
+                    the industry's standard dummy text ever since the <br>1500s, when an unknown printer took a galley
+                    of type and scrambled it <br>to make a type specimen book.
                 </p>
                 <button
-                    class="text-2xl mt-5 p-5 bg-gradient-to-tr from-[#FF8063] to-[#F46060] text-white rounded-lg">Download CV</button>
+                    class="text-2xl mt-5 p-5 bg-gradient-to-tr from-[#FF8063] to-[#F46060] text-white rounded-lg">Download
+                    CV</button>
             </div>
-            
         </section>
     </header>
     <main>
-
+        <section class="color-less-section w-6/6 mx-auto">
+            <div>
+                <h3 class="text-center font-semibold bebas-neue text-6xl mt-40 text-[#363958] mb-28"><span
+                        class="text-[#F46060]">LASTET</span> WORKING PROJECT</h3>
+            </div>
+            <div class="grid grid-cols-3 w-5/6 mx-auto gap-4 mb-56">
+                <div class="content  bg-white p-5  shadow-xl rounded-lg">
+                    <img src="./images/image 4.png" alt="">
+                    <h3 class="px-5 pt-4 text-2xl font-bold">Power-x-gym (gym website)</h3>
+                    <p class="px-5 pt-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.
+                    </p>
+                </div>
+                <div class="content bg-white p-5  shadow-xl rounded-lg">
+                    <img src="./images/image 5.png" alt="">
+                    <h3 class="px-5 pt-4 text-2xl font-bold">Creative Agency</h3>
+                    <p class="px-5 pt-2">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.
+                    </p>
+                </div>
+                <div class="content bg-white p-5  shadow-xl rounded-lg">
+                    <img src="./images/image 8.png" alt="">
+                    <h3 class="px-5 pt-4 text-2xl font-bold">Hard Rock Music</h3>
+                    <p class="px-5 pt-2">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="bg-white">
+        <section class="footer-container w-6/6 bg-white">
+            <div class="w-5/6 mx-auto">
+                <img src="./shapes/Group_33094_1.png" alt="">
+                <div class="flex items-center w-4/6 justify-between mx-auto absolute footer-tems">
+                    <h3 class="text-7xl text-white w-auto bebas-neue">Work Inquiry</h3>
+                    <span>
+                        <button
+                            class="text-2xl mt-5 p-5 bg-gradient-to-tr from-[#FF8063] to-[#F46060] text-white rounded-lg">Let’s
+                            Chat</button>
+                    </span>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 

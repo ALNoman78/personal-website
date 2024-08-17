@@ -4,3 +4,10 @@
 .font-roboto{
     font-family: "Roboto", sans-serif;
 }
+.color-less-section{
+    background: #F8F9FC;
+}
+.footer-tems{
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
