@@ -1,25 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./styles/style.css">
+    <style>
+        .bebas-neue {
+            font-family: "Bebas Neue", sans-serif;
+        }
+
+        .font-roboto {
+            font-family: "Roboto", sans-serif;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        <nav class="flex">
-            <ul>
-                <li>Home</li>
+    <header class="border-solid border-2 border-blue-500">
+        <nav class="flex justify-end m-4 w-5/6 font-medium mx-auto">
+            <ul class="p-4 font-roboto items-center flex gap-10">
+                <li class="">Home</li>
                 <li>Work</li>
                 <li>Portfolio</li>
                 <li>Contact</li>
             </ul>
         </nav>
+        <section
+            class="banner-container w-6/6 mx-auto flex items-center justify-around">
+            <div class="">
+                <h3 class="font-bold text-7xl text-[#363958] w-auto bebas-neue">Hello, I'm <br>
+                    <span class="text-[#FF8367] pt-4">Rob Davidson</span>
+                </h3>
+                <p class="font-roboto pt-5">A full stack allaround designer that placerat <br> in massa consectetur
+                </p>
+                <button
+                    class="text-2xl mt-5 p-5 bg-gradient-to-tr from-[#FF8063] to-[#F46060] text-white rounded-lg">Hire
+                    Me</button>
+            </div>
+            <div class="w-1/4">
+                <img src="./images/do not use this pic.png" alt="" class="">
+            </div>
+        </section>
+        <section class="banner-container w-6/6 mx-auto flex items-center justify-around">
+            <div class="w-1/4">
+                <img src="./images/do not use this pic2.png" alt="" class="">
+            </div>
+            <div class="">
+                <h3 class="font-bold text-7xl text-[#363958] w-auto bebas-neue">About</h3>
+                <p class="font-roboto pt-5">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem Ipsum has been the industry's standard dummy text ever since the <br>1500s, when an unknown printer took a galley of type and scrambled it <br>to make a type specimen book.
+                </p>
+                <button
+                    class="text-2xl mt-5 p-5 bg-gradient-to-tr from-[#FF8063] to-[#F46060] text-white rounded-lg">Download CV</button>
+            </div>
+            
+        </section>
     </header>
     <main>
 
@@ -28,4 +70,5 @@
 
     </footer>
 </body>
+
 </html>
